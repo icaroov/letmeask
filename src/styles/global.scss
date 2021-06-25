@@ -1,0 +1,32 @@
+:root {
+  --color-primary: #8353fd;
+  --color-secondary: #DD0000;
+  --color-link: #e559f9;
+  --color-white: #fff;
+  --text-color: #29292e;
+  --bg-color: #f8f8f8;
+  --border-color: #a8a8b3;
+  --color-google-button: #ea4335;
+
+  --font-primary: 'Roboto';
+  --font-secondary: 'Poppins';
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  background: var(--bg-color);
+  color: var(--text-color);
+}
+
+body, input, button, textarea {
+  font: 400 1.6rem var(--font-primary), sans-serif;
+}
